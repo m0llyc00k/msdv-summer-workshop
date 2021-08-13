@@ -1,0 +1,19 @@
+.header
+{
+    background-color: blue;
+}
+
+.div
+{   width: 175px;
+    min-height: 320px;
+    background-color: #cad2c5;
+    color:#354f52;
+    display: inline-table;
+    margin: 10px;
+    text-align: center;
+    max-width: 950px;
+    border-radius: 3px; }
+.h2
+{
+    background-color: blue;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF=8">
+        <meta http=equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title>Vue App</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1>Hello, {{ name }}.</h1>
+            
+            {{ JSON.stringify(films) }}
+            {{ tempName }}
+            
+            <div v-if="name === 'Molly'">
+                hello, Molly
+            </div>
+            
+            <form @submit="changeName">
+                <input type = "text" v-model="tempName"/>
+                <input type ="submit" value="Enter"/>
+            </form>
+        </div>
+        
+        <script src="https://unpkg.com/vue@3.0.0"></script>
+        <script src="app.js" type="module"></script>
+    </body>
+</html>

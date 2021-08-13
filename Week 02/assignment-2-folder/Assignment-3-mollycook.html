@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="text/javascript">
+    function truncate_string(str,n){
+        //define string//
+              var str = "Hello, World";
+        //find new string//
+              var newStr = str.slice(0, 5)
+      return newStr
+   
+    }
+    
+    console.log(truncate_string ("Hello, World"))
+    
+    
+   
+    function string_parameterize(str){
+        //define string//
+        var str = "Lorem Ipsum"
+        //make lowercase and parameterize//
+        var newStr = str.replace(/\s+/g, '-').toLowerCase()
+        return newStr;
+     
+    }
+    
+    console.log(string_parameterize("Lorem Ipsum"))
+   
+    
+  
+    function sum_of_odd_numbers(i,j){
+       
+     var sum = 0;
+     //declare numbers//
+        for (var n = i; n <= j; n++) 
+     //find odd numbers//
+        if (n % 2 !== 0){
+    // add// 
+    sum += n
+  }
+  
+  return sum;
+
+}
+
+    console.log(sum_of_odd_numbers(0, 4))
+
+    console.log(sum_of_odd_numbers(5, 20))
+     
+
+
+    function celcius_to_fahrenheit(i){
+    return fahrenheit = (celsius * 1.8) + 32
+
+      
+    }
+    
+    console.log(celcius_to_fahrenheit(40));
+    
+    
+
+    function sum_of_array(arr){
+        //define sum//
+        var sum = 0;
+        //define numbers (loop)//
+        for (var i = 0; i < arr.length; i++) { sum += arr[i]}
+        //display the sum//
+        return sum
+         }
+         
+         console.log(sum_of_array([1, 1, 2]))
+         
+         console.log(sum_of_array([1,1,2,5,5]))
+    
+    
+    
+    
+    function mean_of_array(arr){
+    //define sum//
+    var sum=0
+    //define numbers (loop)//
+    for (var i = 0; i < arr.length; i++) 
+    //find sum of array//
+     sum += arr[i]
+     //display sum of array divided by number of array elements//
+    return sum / arr.length
+}
+
+console.log(mean_of_array([1,1,2]))
+
+console.log(mean_of_array([1,1,2,5,5]))
+      
+    
+
+    function only_positive(arr){
+        //find numbers//
+        for (var i = 0; i < arr.length; i++);
+        //define n//
+        var n = arr[i]
+        //return only positive numbers//
+        return arr.filter(n => n >= 0);
+    }
+    
+    console.log(only_positive([1,-100,2,-2]))
+    
+    console.log(only_positive([1,-1,-2,58,24]))
+
+
+
+
+
+
+    /*
+      === TESTS ===
+      These will print out "true/false" statements
+      in your console so you know if you have the
+      correct solution. 
+    */
+    console.log('Truncate String: ' + (truncate_string("Hello, World",5) === 'Hello'))
+    console.log('String Parameterize: ' + (string_parameterize("Lorem Ipsum") === 'lorem-ipsum'))
+    console.log('Sum of Odd Num #1: ' + (sum_of_odd_numbers(1,3) === 4))
+    console.log('Sum of Odd Num #2: ' + (sum_of_odd_numbers(5,20) === 96))
+    console.log('Celcius: ' + (celcius_to_fahrenheit(40) === 104))
+    console.log('Sum of Array #1: ' + (sum_of_array([1,1,2]) === 4))
+    console.log('Sum of Array #2: ' + (sum_of_array([1,1,2,5,5]) === 14))
+    console.log('Mean of Array #1: ' + (Number.parseFloat(mean_of_array([1,1,2])).toFixed(1) === "1.3"))
+    console.log('Mean of Array #2: ' + (Number.parseFloat(mean_of_array([1,1,2,5,5])).toFixed(1) === "2.8"))
+    console.log('Only Positive #1: ' + (JSON.stringify(only_positive([1,-100,2,-2])) === '[1,2]'))
+    console.log('Only Positive #2: ' + (JSON.stringify(only_positive([1,-1,-2,58,24])) === '[1,58,24]'))
+  </script>
+</body>
+</html>

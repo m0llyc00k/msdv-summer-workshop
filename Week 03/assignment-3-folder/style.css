@@ -1,0 +1,145 @@
+/*colors
+#f1faee #a8dadc #19223a #0049fe #c3f27d
+*/
+
+
+
+
+.page-title {
+    background-image: url("photo-links/totorobanner.png");
+    display: block;
+    text-align:center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:  50px;
+    max-width: 500px;
+    
+}
+
+
+
+a {
+    background-color: #84a98c;
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred;
+    border-radius: 5px;
+}
+
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    background-color: #136CB4;
+    font-family: calibri;
+    font-weight: 100;
+    font-variant: small-caps;
+    text-decoration: overline;
+    width: 560px;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    
+}
+
+h3 {
+    text-align: center;
+    color: #301F3B;
+    padding: 5px;
+    border:1px solid #19223a;
+    display: block;
+    background-color: white;
+    font-family: calibri;
+    font-variant: small-caps;
+    text-decoration: overline;
+    max-width: 350px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+
+button {
+  margin: 0 auto;
+  font-size: 12px;
+  background-color:#0049fe;
+  text-align: center;
+  font-family: calibri;
+  font-variant: small-caps;
+  -webkit-font-smoothing: antialiased;
+  border: 5px white;
+  text-decoration: overline;
+  user-select: none;
+  letter-spacing: 1px;
+  color: white;
+  padding: 20px;
+  text-transform: uppercase;
+  transition: all 0.1s ease-out;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  
+  
+  
+}
+
+button:hover {
+        background: white;
+        color: #1a64d6;
+        border: 1px solid #1a64d6;
+      
+}
+
+p, h4 {
+  font-family: calibri;
+  font-variant: small-caps;
+  display: inline-block;
+  color: white;
+  width: auto;
+  line-height: 20px;
+  margin: 0 auto;
+  border: 1px;
+  padding: 5px;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 3px;
+  font-weight: 100;
+  
+    
+}
+p {
+font-size: 14px;
+}
+
+.container {
+  display: block;
+  
+  background: #0049fe;
+  background-image: url("photo-links/gradient.jpeg");
+  padding: 10px;
+  background-size: cover;
+  max-width: 600px;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  
+}
+
+
+
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 500px;
+    
+}
+

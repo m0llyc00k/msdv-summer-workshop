@@ -1,0 +1,39 @@
+/*colors
+#f1faee #a8dadc #19223a #0049fe #c3f27d
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+h2 {
+    text-align: center;
+    color: white;
+    padding: 30px;
+    display: block;
+    justify-content: center;
+    background-color: #af6689;
+    font-family: calibri;
+    font-weight: 100;
+    font-variant: small-caps;
+    text-decoration: overline;
+    width: 560px;
+    top: 50%;
+    left: 50%;
+    margin: auto;
+    
+}
+
+.viz {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+
+}
