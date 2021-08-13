@@ -1,0 +1,60 @@
+/*colors
+#cad2c5,84a98c,52796f,354f52,2f3e46
+*/
+body{
+  background: radial-gradient(white, #84a98c);
+
+}
+a {
+    background-color: #84a98c;
+    padding: 20px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+h1 {
+    display: block;
+    max-width: 350px;
+    text-align: center;
+    margin:0;
+    color: #354f52;
+    padding:15px;
+    border:2px solid #52796f;
+    background-color: #cad2c5;
+    font-family: calibri;
+    font-weight: 500;
+}
+
+h2 {
+    text-align: center;
+    margin:0;
+    color: #354f52;
+    padding:15px;
+    border:2px solid #52796f;
+    display: block;
+    background-color: none;
+    font-family: calibri;
+    font-weight: 500;
+}
+
+ul {
+    text-align: center;
+    font-family: monospace;
+    font-size:12px;
+    padding: 20px 20px 20px 15px;
+    margin: 0 auto;
+    list-style-type: none;
+}
+li {
+    padding: 30px;
+}
+
+a:hover {
+        background: white;
+        color: #84a98c;
+        border: 1px solid #84a98c;
+      
+}
